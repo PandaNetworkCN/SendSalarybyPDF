@@ -33,8 +33,8 @@ foreach ($row in $excelData) {
 $pdfFilePath = "$currentFolder\$ID.pdf"
 
 #Email settings
-$smtpServer = "service.snapon.com"
-$senderEmail = "BeijingHR@snapon.com"
+$smtpServer = "service.demo.com"
+$senderEmail = "BeijingHR@demo.com"
 $recipientEmail = $mail
 $emailSubject = "工资单"
 $emailBody = "
